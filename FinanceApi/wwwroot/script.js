@@ -1,4 +1,4 @@
-const apiBase = "https://localhost:7125/api"; 
+const apiBase = "/api"; 
 
 // Fetch clients from API
 async function fetchClients() {
