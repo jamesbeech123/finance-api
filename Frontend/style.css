@@ -1,0 +1,85 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 20px;
+    background-color: #f0f2f5;
+    color: #333;
+}
+
+.container {
+    max-width: 1000px;
+    margin: auto;
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 30px;
+    color: #222;
+}
+
+.card {
+    background-color: #fff;
+    border-radius: 12px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+    padding: 20px;
+    margin-bottom: 25px;
+    transition: transform 0.2s;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+}
+
+.card h2 {
+    margin-top: 0;
+}
+
+.portfolio {
+    margin-top: 15px;
+    padding: 10px;
+    border-left: 4px solid #007BFF;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+}
+
+.portfolio h3 {
+    margin: 5px 0;
+}
+
+.investment-list {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+.investment-list li {
+    padding: 6px 0;
+    border-bottom: 1px solid #eee;
+}
+
+.investment-list li:last-child {
+    border-bottom: none;
+}
+
+.risk {
+    font-weight: bold;
+    padding: 4px 8px;
+    border-radius: 6px;
+    color: #fff;
+    display: inline-block;
+}
+
+.risk.low {
+    background-color: #28a745;
+}
+
+.risk.medium {
+    background-color: #ffc107;
+}
+
+.risk.high {
+    background-color: #dc3545;
+}
+
+.total-value {
+    font-weight: bold;
+    margin-top: 8px;
+}
