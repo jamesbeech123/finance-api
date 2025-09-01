@@ -8,7 +8,7 @@ This project demonstrates a simple Finance API with clients, portfolios, and inv
 
 ```
 git clone https://github.com/jamesbeech123/finance-api.git
-cd finance-api
+cd finance-api/FinanceApi
 ```
 
 1. Make sure you have **.NET 8 SDK** installed.
@@ -21,7 +21,7 @@ cd finance-api
 dotnet run
 ```
 
-5. Open `index.html` in your browser to see the frontend.
+5. Open `localhost:5171` in your browser to see the frontend.
 
 ## Features
 
