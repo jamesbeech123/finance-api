@@ -1,0 +1,45 @@
+@FinanceApi_HostAddress = https://localhost:7125
+
+GET {{FinanceApi_HostAddress}}/api/todoitems
+Accept: application/json
+
+###
+
+POST {{FinanceApi_HostAddress}}/api/todoitems
+Content-Type: application/json
+
+{
+  "name": "walk dog",
+    "isComplete": true
+}
+
+###
+
+@id=0
+GET {{FinanceApi_HostAddress}}/api/portfolios/{{id}}/analytics
+
+###
+
+GET {{FinanceApi_HostAddress}}/api/clients
+
+###
+
+GET {{FinanceApi_HostAddress}}/api/portfolios/1
+
+###
+
+GET {{FinanceApi_HostAddress}}/api/portfolios/1/analytics
+
+###
+
+GET {{FinanceApi_HostAddress}}/api/clients
+
+###
+
+GET {{FinanceApi_HostAddress}}/api/clients/1
+
+###
+
+GET {{FinanceApi_HostAddress}}/api/clients
+
+###
